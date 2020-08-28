@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <h2 id="header2">Страница с формой запроса</h2>
+    <br>
+    <h3>Форма для POST запроса</h3>
+    <form name="myForm">
+        <label for="yourName">Ваше имя</label>
+        <input type="text" id="yourName">
+        <br><br>
+        <label for="yourEmail">Ваш email</label>
+        <input type="text" id="yourEmail">
+        <br><br>
+        <button type="submit" id="submitForm">Отправить</button>
+    </form>
+    <br>
+
+    <h3>Возвращенные с сервера данные</h3>
+    <b>Ваше имя: </b>
+    <b id="returnName">нет данных</b>
+    <br>
+    <b>Ваш Email: </b>
+    <b id="returnEmail">нет данных</b>
+    <br><br>
+    <a href="/">Возврат на главную страницу</a>
+
+    <script src="../js/main.js"></script>
+    <script src="../js/submitForm.js"></script>
+</body>
+
+</html>
